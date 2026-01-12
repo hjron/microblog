@@ -12,4 +12,4 @@ class Config:
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['hjron@protonmail.com']
-    POSTS_PER_PAGE = 15
+    POSTS_PER_PAGE = 10
