@@ -13,3 +13,4 @@ class Config:
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['hjron@protonmail.com']
     POSTS_PER_PAGE = 10
+    LANGUAGES = ['en', 'es']
